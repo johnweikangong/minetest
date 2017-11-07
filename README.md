@@ -1,4 +1,4 @@
-# Minetest Features
+# Minetest Mod Features
 Powerdrill: Capable of mining any type of block with a long range. Comes with a cute sound effect.
 
 # How to use
