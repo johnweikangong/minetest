@@ -4,6 +4,7 @@ minetest.register_tool("features:powerdrill", {
 	range = 20,
 	tool_capabilities = {
 		max_drop_level = 3,
+		sound = "features_powerdrill",
 		groupcaps = { -- Ensures that any type of block will be mined instantly
 			unbreakable =   {times={[1] = 0, [2] = 0, [3] = 0}, uses = 0, maxlevel = 3},
 			dig_immediate = {times={[1] = 0, [2] = 0, [3] = 0}, uses = 0, maxlevel = 3},
@@ -16,3 +17,5 @@ minetest.register_tool("features:powerdrill", {
 		},
 	}
 })
+
+minetest.sound_play("features_powerdrill", {pos = pos, gain = 0.4, max_hear_distance = 10})
