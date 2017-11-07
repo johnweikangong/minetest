@@ -15,7 +15,8 @@ minetest.register_tool("features:powerdrill", {
 			crumbly =	{times={[1] = 0, [2] = 0, [3] = 0}, uses = 0, maxlevel = 3},
 			snappy =	{times={[1] = 0, [2] = 0, [3] = 0}, uses = 0, maxlevel = 3}
 		},
-	}
+	},
+	after_use = function(itemstack, user, node, digparams)
+      minetest.sound_play("features_powerdrill")
+   end
 })
-
-minetest.sound_play("features_powerdrill", {pos = pos, gain = 0.4, max_hear_distance = 10})
