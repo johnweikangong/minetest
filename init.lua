@@ -23,20 +23,20 @@ minetest.register_tool("features:powerdrill", {
 })
 
 minetest.register_node("features:musicblock", {
-  description = "Look, it's a magic box that can play music!",
-  inventory_image = "features_jukebox.png",
-  groups = {snappy=2,choppy=2,oddly_breakable_by_hand=2},
-  minetest.register_on_punchnode(function(pos, node, puncher)
-	if node.name=="features:musicblock" then
-		if musicblock_handle == -1 then
-			musicblock_handle = minetest.sound_play("features_audio", {
-            gain = 1.0,
-            max_hear_distance = 32,})
-        else
-            minetest.sound_stop(musicblock_handle)
-			musicblock_handle = -1
-        end
-	end
-  end)
+	description = "Look, it's a magic box that can play music!",
+	inventory_image = "features_jukebox.png",
+	groups = {snappy=2,choppy=2,oddly_breakable_by_hand=2},
+	minetest.register_on_punchnode(function(pos, node, puncher)
+		if node.name=="features:musicblock" then
+			if musicblock_handle == -1 then
+				musicblock_handle = minetest.sound_play("features_audio", {
+				gain = 1.0,
+				max_hear_distance = 32,})
+			else
+				minetest.sound_stop(musicblock_handle)
+				musicblock_handle = -1
+			end
+		end
+	end)
 })
 
