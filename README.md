@@ -2,8 +2,8 @@
 ![Not found](https://github.com/johnweikangong/minetest/blob/master/textures/features_powerdrill.png)
 ![Not found](https://github.com/johnweikangong/minetest/blob/master/textures/features_jukebox.png)
 
-* Powerdrill: Capable of destroying any type of block with a long range. Comes with a cute sound effect.
-* Jukebox: A little box that plays music when you punch it! Punch again to stop!
+1. Powerdrill: Capable of destroying any type of block with a long range. Comes with a cute sound effect.
+2. Jukebox: A little box that plays music when you punch it! Punch again to stop!
 
 # How to use
 * Download the repo and wrap in a `features` folder, add this to your `mods` folder.
