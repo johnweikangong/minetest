@@ -1,7 +1,7 @@
 # Minetest Mod Features
 Powerdrill: Capable of destroying any type of block with a long range. Comes with a cute sound effect.
 
-Jukebox: A little box that plays music when you use it!
+Jukebox: A little box that plays music when you use it to punch other blocks!
 
 # How to use
 * Download the repo and wrap in a `features` folder, add this to your `mods` folder.
