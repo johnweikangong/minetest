@@ -1,5 +1,6 @@
 # Minetest Mod Features
 Powerdrill: Capable of mining any type of block with a long range. Comes with a cute sound effect.
+
 Jukebox: A little box that plays music when you use it!
 
 # How to use
@@ -12,5 +13,8 @@ Jukebox: A little box that plays music when you use it!
 
 # Acknowledgement
 [superpick](https://github.com/taikedz/everamzah-superpick)
-[mysoundblocks] (https://github.com/minetest-mods/mysoundblocks)
-[The Free Music Archive, for the audio file] (http://freemusicarchive.org/genre/Electronic/)
+
+[mysoundblocks](https://github.com/minetest-mods/mysoundblocks)
+
+[The Free Music Archive, for the audio file](http://freemusicarchive.org/genre/Electronic/)
+
