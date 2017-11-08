@@ -20,3 +20,15 @@ minetest.register_tool("features:powerdrill", {
       minetest.sound_play("features_powerdrill")
    end
 })
+
+minetest.register_tool("features:musicblock", {
+  description = "Look, it's a magic box that can play music!",
+  inventory_image = "features_jukebox.png",
+  sound = "features_audio",
+  groups = {snappy=2,choppy=2,oddly_breakable_by_hand=2},
+  minetest.register_on_punchnode(function(pos, node, puncher)
+    minetest.sound_play("features_audio", {
+                gain = 1.0,
+                max_hear_distance = 32,})
+  end)
+})
