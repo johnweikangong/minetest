@@ -12,9 +12,7 @@ Jukebox: A little box that plays music when you punch it! Punch again to stop!
 
 
 # Acknowledgement
-[superpick](https://github.com/taikedz/everamzah-superpick)
-
-[mysoundblocks](https://github.com/minetest-mods/mysoundblocks)
-
-[The Free Music Archive, for the audio file](http://freemusicarchive.org/genre/Electronic/)
+*[superpick](https://github.com/taikedz/everamzah-superpick)
+*[mysoundblocks](https://github.com/minetest-mods/mysoundblocks)
+*[The Free Music Archive, for the audio file](http://freemusicarchive.org/genre/Electronic/)
 
