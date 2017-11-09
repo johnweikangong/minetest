@@ -1,5 +1,6 @@
 musicblock_handle = -1
 
+-- @@author John
 minetest.register_tool("features:powerdrill", {
     description = "Powerful drill that destroys everything",
     inventory_image = "features_powerdrill.png",
@@ -21,7 +22,9 @@ minetest.register_tool("features:powerdrill", {
 		minetest.sound_play("features_powerdrill")
 	end
 })
+-- @@author end of John
 
+-- @@author Dhruv
 minetest.register_node("features:musicblock", {
 	description = "Look, it's a magic box that can play music!",
 	inventory_image = "features_jukebox.png",
@@ -39,4 +42,5 @@ minetest.register_node("features:musicblock", {
 		end
 	end)
 })
+-- @@author end of Dhruv
 
